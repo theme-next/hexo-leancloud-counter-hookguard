@@ -21,7 +21,6 @@ AV.Cloud.beforeUpdate('Counter', (request) => {
   }
 });
 
-
 const app = express();
 
 app.use(AV.express());
